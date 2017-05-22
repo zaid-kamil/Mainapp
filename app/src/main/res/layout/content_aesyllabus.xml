@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.baj.ana.mainapp.AesyllabusActivity"
+    tools:showIn="@layout/activity_aesyllabus"
+    android:background="@android:color/white">
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aGeneralAptitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="GENERAL APTITUDE"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvGA1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verbal Ability: English grammar, sentence completion, verbal analogies, word groups, instructions, critical reasoning and verbal deduction."/>
+
+        <TextView
+            android:id="@+id/tvGA2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGA1"
+            android:text="Numerical Ability: Numerical computation, numerical estimation, numerical" />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aEngineeringMathmatics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ENGINEERING MATHEMATICS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvEM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Linear Algebra: Matrix algebra; Systems of linear equations; Eigen values and Eigen vectors." />
+
+        <TextView
+            android:id="@+id/tvEM2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM1"
+            android:text="Calculus: Functions of single variable; Limit, continuity and differentiability; Mean value theorems, local maxima and minima, Taylor and Maclaurin series; Evaluation of definite and indefinite integrals, application of definite integral to obtain area and volume; Partial derivatives; Total derivative; Gradient, Divergence and Curl, Vector identities, Directional derivatives, Line, Surface and Volume integrals, Stokes, Gauss and Green’s theorems." />
+
+        <TextView
+            android:id="@+id/tvEM3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM2"
+            android:text="Differential equations: First order equation (linear and nonlinear), Higher order linear differential equations with constant coefficients, Method of variation of parameters, Cauchy’s and Euler’s equations, Initial and boundary value problems, Partial Differential Equations and variable separable method." />
+
+
+        <TextView
+            android:id="@+id/tvEM4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM3"
+            android:text="Numerical Methods: Numerical solution of linear and nonlinear algebraic equations, integration by trapezoidal and Simpson rule, single and multi-step methods for differential equations." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aFlightMechanics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="FLIGHT MECHANICS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvFM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atmosphere: Properties, standard atmosphere. Classification of aircraft. Airplane (fixed wing aircraft) configuration and various parts."/>
+
+        <TextView
+            android:id="@+id/tvFM2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvFM1"
+            android:text="Airplane performance: Pressure altitude; equivalent, calibrated, indicated air speeds; Primary flight instruments: Altimeter, ASI, VSI, Turn-bank indicator. Drag polar; takeoff and landing; steady climb and descent,-absolute and service ceiling; cruise, cruise climb, endurance or loiter; load factor, turning flight, V-n diagram; Winds: head, tail and cross winds." />
+
+        <TextView
+            android:id="@+id/tvFM3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvFM2"
+            android:text="Static stability: Angle of attack, sideslip; roll, pitch and yaw controls; longitudinal stick fixed and free stability, horizontal tail position and size; directional stability, vertical tail position and size; dihedral stability. Wing dihedral, sweep and position; hinge moments, stick forces." />
+        <TextView
+            android:id="@+id/tvFM4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvFM3"
+            android:text="Dynamic stability: Euler angles; Equations of motion; aerodynamic forces and moments, Stability and control derivatives; decoupling of longitudinal and lat-directional dynamics; longitudinal modes; lateral dimensional modes." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aSpaceDynamics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="SPACE DYNAMICS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvSD1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soil Mechanics: Origin of soils, soil structure and fabric; Three-phase system and phase relationships, index properties; Unified and Indian standard soil classification system; Permeability – one dimensional flow, Darcy’s law; Seepage through soils – two-dimensional flow, flow nets, uplift pressure, piping; Principle of effective stress, capillarity, seepage force and quicksand condition; Compaction in laboratory andfield conditions; Onedimensional consolidation, time rate of consolidation; Mohr’s circle, stress paths, effective and total shear strength parameters, characteristics of clays and sand." />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aAerodynamics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="AERODYNAMICS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvAE1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic Fluid Mechanics: Incompressible irrotational flow, Helmholtz and Kelvin theorem, singularities and superposition, viscous flows, boundary layer on a flat plate " />
+
+        <TextView
+            android:id="@+id/tvAE2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAE1"
+            android:text="Airfoils and wings: Classification of airfoils, aerodynamic characteristics, high lift devices, KuttaJoukowski theorem; lift generation; thin airfoil theory; wing theory; induced drag; qualitative treatment of low aspect ratio wings." />
+
+        <TextView
+            android:id="@+id/tvAE3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAE2"
+            android:text="Viscous Flows: Flow separation, introduction to turbulence, transition, structure of a turbulent boundary layer." />
+
+        <TextView
+            android:id="@+id/tvAE4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAE3"
+            android:text="Compressible Flows: Dynamics and Thermodynamics of I-D flow, isentropic flow, normal shock, oblique shock, Prandtl-Meyer flow, flow in nozzles and diffusers, inviscid flow in a c- d nozzle, flow in diffusers. subsonic and supersonic airfoils, compressibility effects on lift and drag, critical and drag divergence Mach number, wave drag." />
+
+        <TextView
+            android:id="@+id/tvAE5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAE4"
+            android:text="Wind Tunnel Testing: Measurement and visualization techniques." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aStructures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading=" STRUCTURES"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvST1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stress and Strain: Equations of equilibrium, constitutive law, strain-displacement relationship, compatibility equations, plane stress and strain, Airy’s stress function." />
+
+        <TextView
+            android:id="@+id/tvST2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvST1"
+            android:text="Flight Vehicle Structures: Characteristics of aircraft structures and materials, torsion, bending and flexural shear. Flexural shear flow in thin-walled sections. Buckling. Failure theories. Loads on aircraft." />
+
+        <TextView
+            android:id="@+id/tvST3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvST2"
+            android:text="Structural Dynamics: Free and forced vibration of discrete systems. Damping and resonance. Dynamics of continuous systems." />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aPropulsion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="PROPULSION"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvPROP1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thermodynamics of Aircraft Gas Turbine engines thrust and thrust augmentation." />
+
+        <TextView
+            android:id="@+id/tvPROP2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPROP1"
+            android:text="Turbo machinery: Axial compressors and turbines, centrifugal pumps and compressors." />
+
+        <TextView
+            android:id="@+id/tvPROP3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPROP2"
+            android:text="Aerothermodynamics of non-rotating propulsion components: Intakes, combustor and nozzle. Thermodynamics of ramjets and scramjets. Elements of rocket propulsion." />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+</LinearLayout>

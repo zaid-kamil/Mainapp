@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff6f6f"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.baj.ana.mainapp.Gate1Activity"
+    tools:showIn="@layout/activity_gate1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/flgate"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#1ca584">
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:padding="16dp"
+                android:scaleType="center"
+                android:src="@drawable/gatefront_bg" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="@color/common_plus_signin_btn_text_light_disabled"
+                android:gravity="center"
+                android:text="GATE"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/abc_input_method_navigation_guard"
+                android:textStyle="bold"
+                android:elevation="2dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flcategory"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#1ca584">
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:padding="16dp"
+                android:scaleType="center"
+                android:src="@drawable/categories" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="@color/common_plus_signin_btn_text_light_disabled"
+                android:gravity="center"
+                android:text="CATEGORIES"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/abc_primary_text_disable_only_material_light"
+                android:textStyle="bold"
+                android:elevation="2dp" />
+
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

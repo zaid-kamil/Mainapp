@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="10dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/messengerImageView"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_person_black_24dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:padding="8dp"
+                android:id="@+id/messageTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                tools:text="There is not going back" />
+
+            <ImageView
+                android:id="@+id/messageImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@color/colorPrimary"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/messengerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="ajay devgan"
+                android:paddingLeft="10dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="@drawable/rounded_edges"
+        android:id="@+id/contain">
+
+        <TextView
+            android:text="Expert Answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDisplay"
+            android:textStyle="normal|bold"
+            android:textAlignment="textStart"
+            android:drawableLeft="@drawable/ic_record_voice_over_black_24dp"
+            android:paddingLeft="8dp"
+            android:drawablePadding="24dp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEAnswer"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="56dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="8dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.baj.ana.mainapp.EeesyllabusActivity"
+    tools:showIn="@layout/activity_eeesyllabus"
+    android:background="@android:color/white">
+
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aGeneralAptitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="GENERAL APTITUDE"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verbal Ability: English grammar, sentence completion, verbal analogies, word groups, instructions, critical reasoning and verbal deduction" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:text="Numerical Ability: Numerical computation, numerical estimation, numerical" />
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aEngineeringMathmatics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ENGINEERING MATHEMATICS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvEM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Linear Algebra: Matrix Algebra, Systems of linear equations, Eigenvalues, Eigenvectors." />
+
+        <TextView
+            android:id="@+id/tvEM2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM1"
+            android:text="Calculus: Mean value theorems, Theorems of integral calculus, Evaluation of definite and improper integrals, Partial Derivatives, Maxima and minima, Multiple integrals, Fourier series, Vector identities, Directional derivatives, Line integral, Surface integral, Volume integral, Stokes’s theorem, Gauss’s theorem, Green’s theorem." />
+
+        <TextView
+            android:id="@+id/tvEM3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM2"
+            android:text="Differential equations: First order equations (linear and nonlinear), Higher order linear differential equations with constant coefficients, Method of variation of parameters, Cauchy’s equation, Euler’s equation, Initial and boundary value problems, Partial Differential Equations, Method of separation of variables." />
+
+        <TextView
+            android:id="@+id/tvEM4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM3"
+            android:text="Complex variables: Analytic functions, Cauchy’s integral theorem, Cauchy’s integral formula, Taylor series, Laurent series, Residue theorem, Solution integrals." />
+
+        <TextView
+            android:id="@+id/tvEM5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM4"
+            android:text="Probability and Statistics: Sampling theorems, Conditional probability, Mean, Median, Mode, Standard Deviation, Random variables, Discrete and Continuous distributions, Poisson distribution, Normal distribution, Binomial distribution, Correlation analysis, Regression analysis." />
+
+        <TextView
+            android:id="@+id/tvEM6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM5"
+            android:text="Numerical Methods: Solutions of nonlinear algebraic equations, Single and Multi‐step methods for differential equations." />
+
+        <TextView
+            android:id="@+id/tvEM7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM6"
+            android:text="Transform Theory: Fourier Transform, Laplace Transform, z‐Transform." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aElectricCircuits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading=" ELECTRIC CIRCUITS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvEC1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Network graph, KCL, KVL, Node and Mesh analysis, Transient response of dc and ac networks, Sinusoidal steady‐state analysis, Resonance, Passive filters, Ideal current and voltage sources, Thevenin’s theorem, Norton’s theorem, Superposition theorem, Maximum power transfer theorem, Two‐port networks, Three phase circuits, Power and power factor in ac circuits." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aElectromagnetic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ELECTROMAGNETIC FIELDS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvEMF1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coulomb’s Law, Electric Field Intensity, Electric Flux Density, Gauss’s Law, Divergence, Electric field and potential due to point, line, plane and spherical charge distributions, Effect of dielectric medium,Capacitance of simple configurations, Biot‐Savart’s law, Ampere’s law, Curl, Faraday’s law, Lorentz force, Inductance, Magnetomotive force, Reluctance, Magnetic circuits,Self and Mutual inductance of simple configurations" />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aSignalsSystems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="SIGNALS AND SYSTEMS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvSS1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Representation of continuous and discrete‐time signals, Shifting and scaling operations, Linear Time Invariant and Causal systems, Fourier series representation of continuous periodic signals,Sampling theorem, Applications of Fourier Transform, Laplace Transform and z-Transform." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aElectricalMachines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ELECTRICAL MACHINES"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvELEC1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Power generation concepts, ac and dc transmission concepts, Models and performance of transmission lines and cables, Series and shunt compensation, Electric field distribution andinsulators, Distribution systems, Per‐unit quantities, Bus admittance matrix, GaussSeidel and Newton-Raphson load flow methods, Voltage and Frequency control, Power factor correction,Symmetrical components, Symmetrical and unsymmetrical fault analysis, Principles of over‐current, differential and distance protection Circuit breakers, System stability concepts, Equal area criterion." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aPowerSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="POWER SYSTEMS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvPS1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Power generation concepts, ac and dc transmission concepts, Models and performance of transmission lines and cables, Series and shunt compensation, Electric field distribution andinsulators, Distribution systems, Per‐unit quantities, Bus admittance matrix, GaussSeidel and Newton-Raphson load flow methods, Voltage and Frequency control, Power factor correction,Symmetrical components, Symmetrical and unsymmetrical fault analysis, Principles of over‐current, differential and distance protection Circuit breakers, System stability concepts, Equal area criterion." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aControlSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="CONTROL SYSTEMS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvCS1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mathematical modeling and representation of systems, Feedback principle, transfer function, Block diagrams and Signal flow graphs, Transient and Steady‐state analysis of linear time invariant systems, Routh-Hurwitz and Nyquist criteria, Bode plots, Root loci, Stability analysis, Lag, Lead and Lead‐Lag compensators P, PI and PID controllers; State space model, State transition matrix." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aElectrical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ELECTRICAL AND ELECTRONIC MEASUREMENTS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvEEM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bridges and Potentiometers, Measurement of voltage, current, power, energy and power factor Instrument transformers, Digital voltmeters and multimeters, Phase, Time and Frequencymeasurement; Oscilloscopes, Error analysis." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aAnalogDigital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ANALOG AND DIGITAL ELECTRONICS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvADE1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Characteristics of diodes, BJT, MOSFET; Simple diode circuits: clipping, clamping, rectifiers; Amplifiers: Biasing, Equivalent circuit and Frequency response; Oscillators and Feedback amplifiers; Operational amplifiers: Characteristics and applications; Simple active filters, VCOs and Timers, Combinational and Sequential logic circuits, Multiplexer, Demultiplexer, Schmitt trigger, Sample and hold circuits, A/D and D/A converters, 8085Microprocessor: Architecture, Programming and Interfacing." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aPowerElectronics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="POWER ELECTRONICS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvPE1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Characteristics of semiconductor power devices: Diode, Thyristor, Triac, GTO, MOSFET, IGBT; DC to DC conversion: Buck, Boost and Buck-Boost converters; Single and three phase configuration of uncontrolled rectifiers, Line commutated thyristor based converters, Bidirectional ac to dc voltage source converters, Issues of line current harmonics, Power factor, Distortion factor of ac to dc converters, Single phase and three phase inverters, Sinusoidal pulse width modulation." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+
+</LinearLayout>

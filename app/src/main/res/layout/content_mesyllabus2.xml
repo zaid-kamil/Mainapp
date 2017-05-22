@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.baj.ana.mainapp.Mesyllabus2Activity"
+    tools:showIn="@layout/activity_mesyllabus2"
+    android:background="@android:color/white">
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aGeneralAptitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="GENERAL APTITUDE"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvGA1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verbal Ability: English grammar, sentence completion, verbal analogies, word groups, instructions, critical reasoning and verbal deduction." />
+
+        <TextView
+            android:id="@+id/tvGA2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGA1"
+            android:text="Numerical Ability: Numerical computation, numerical estimation, numerical" />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aEngineeringMathematics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ENGINEERING MATHEMATICS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvEM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM1"
+            android:text="Linear Algebra: Matrix algebra; Systems of linear equations; Eigen values and Eigen vectors." />
+
+        <TextView
+            android:id="@+id/tvEM2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM1"
+            android:text="Calculus: Functions of single variable; Limit, continuity and differentiability; Mean value theorems, local maxima and minima, Taylor and Maclaurin series; Evaluation of definite and indefinite integrals, application of definite integral to obtain area and volume; Partial derivatives; Total derivative; Gradient, Divergence and Curl, Vector identities, Directional derivatives, Line, Surface and Volume integrals, Stokes, Gauss and Green’s theorems." />
+
+        <TextView
+            android:id="@+id/tvEM3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM2"
+            android:text="Differential equations: First order equations (linear and nonlinear); higher order linear differential equations with constant coefficients; Euler-Cauchy equation; initial and boundary value problems; Laplace transforms; solutions of heat, wave and Laplace’s equations." />
+
+        <TextView
+            android:id="@+id/tvEM4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM3"
+            android:text="Complex variables: Analytic functions; Cauchy-Riemann equations; Cauchy’s integral theorem and integral formula; Taylor and Laurent series." />
+
+        <TextView
+            android:id="@+id/tvEM5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM4"
+            android:text="Probability and Statistics: Definitions of probability and sampling theorems; Conditional probability; Discrete Random variables: Poisson and Binomial distributions; Continuous random variables: normal and exponential distributions; Descriptive statistics – Mean, median, mode and standard deviation; Hypothesis testing." />
+
+
+        <TextView
+            android:id="@+id/tvEM6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numerical Methods: Accuracy and precision; error analysis. Numerical solutions of linear and non-linear algebraic equations; Least square approximation, Newton’s and Lagrange polynomials, numerical differentiation, Integration by trapezoidal and Simpson’s rule, single and multi-step methods for first order differential equations." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aMechanicsAndDesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="MECHANICS AND DESIGN"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvMD1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Engineering Mechanics: System of forces, free-body diagrams, equilibrium equations; Internal forces in structures; Friction and its applications; Kinematics of point mass and rigid body; Centre of mass; Euler’s equations of motion; Impulse-momentum; Energy methods; Principles of virtual work." />
+
+        <TextView
+            android:id="@+id/tvMD2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMD1"
+            android:text="Solid Mechanics: Bending moment and shear force in statically determinate beams; Simple stress and strain relationships; Theories of failures; Simple bending theory, flexural and shear stresses, shear centre; Uniform torsion, buckling of column, combined and direct bending stresses." />
+
+        <TextView
+            android:id="@+id/tvMD3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMD2"
+            android:text="Structural Analysis: Statically determinate and indeterminate structures by force/ energy methods; Method of superposition; Analysis of trusses, arches, beams, cables and frames; Displacement methods: Slope deflection and moment distribution methods; Influence lines; Stiffness and flexibility methods of structural analysis." />
+
+        <TextView
+            android:id="@+id/tvMD4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMD3"
+            android:text="Construction Materials and Management: Construction Materials: Structural steel – composition, material properties and behaviour; Concrete – constituents, mix design, short-term and long-term properties; Bricks and mortar; Timber; Bitumen. Construction Management: Types of construction projects; Tendering and construction contracts; Rate analysis and standard specifications; Cost estimation; Project planning and network analysis – PERT and CPM." />
+
+        <TextView
+            android:id="@+id/tvMD5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMD4"
+            android:text="Concrete Structures: Working stress, Limit state and Ultimate load design concepts; Design of beams, slabs, columns; Bond and development length; Prestressed concrete; Analysis of beam sections at transfer and service loads." />
+
+        <TextView
+            android:id="@+id/tvMD6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMD5"
+            android:text="Steel Structures: Working stress and Limit state design concepts; Design of tension and compression members, beams and beam- columns, column bases; Connections – simple and eccentric, beam-column connections, plate girders and trusses; Plastic analysis of beams and frames" />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aFluidMechanics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="FLUID MECHANICS AND THERMAL SCIENCES"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvFM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fluid Mechanics: Fluid properties; fluid statics, manometry, buoyancy, forces on submerged bodies, stability of floating bodies; control-volume analysis of mass, momentum and energy; fluid acceleration; differential equations of continuity and momentum; Bernoulli’s equation; dimensional analysis; viscous flow of incompressible fluids, boundary layer, elementary turbulent flow, flow through pipes, head losses in pipes, bends and fittings." />
+
+        <TextView
+            android:id="@+id/tvFM2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvFM1"
+            android:text="Heat-Transfer: Modes of heat transfer; one dimensional heat conduction, resistance concept and electrical analogy, heat transfer through fins; unsteady heat conduction, lumped parameter system, Heisler’s charts; thermal boundary layer, dimensionless parameters in free and forced convective heat transfer, heat transfer correlations for flow over flat plates and through pipes, effect of turbulence; heat exchanger performance, LMTD and NTU methods; radiative heat transfer, StefanBoltzmann law, Wien’s displacement law, black and grey surfaces, view factors, radiation network analysis." />
+
+        <TextView
+            android:id="@+id/tvFM3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvFM2"
+            android:text="Thermodynamics: Thermodynamic systems and processes; properties of pure substances, behaviour of ideal and real gases; zeroth and first laws of thermodynamics, calculation of work and heat in various processes; second law of thermodynamics; thermodynamic property charts and tables, availability and irreversibility; thermodynamic relations." />
+
+        <TextView
+            android:id="@+id/tvFM4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvFM3"
+            android:text="Applications: Power Engineering: Air and gas compressors; vapour and gas power cycles, concepts of regeneration and reheat. I.C. Engines: Air-standard Otto, Diesel and dual cycles. Refrigeration and air-conditioning: Vapour and gas refrigeration and heat pump cycles; properties of moist air, psychrometric chart, basic psychrometric processes. Turbomachinery: Impulse and reaction principles, velocity diagrams, Pelton-wheel, Francis and Kaplan turbines." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aMaterials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="MATERIALS MANUFACTURING AND INDUSTRIAL ENGINEERING"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvMM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Engineering Materials: Structure and properties of engineering materials, phase diagrams, heat treatment, stress-strain diagrams for engineering materials." />
+
+        <TextView
+            android:id="@+id/tvMM2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMM1"
+            android:text="Casting, Forming and Joining Processes: Different types of castings, design of patterns, moulds and cores; solidification and cooling; riser and gating design. Plastic deformation and yield criteria; fundamentals of hot and cold working processes; load estimation for bulk (forging, rolling, extrusion, drawing) and sheet (shearing, deep drawing, bending) metal forming processes; principles of powder metallurgy. Principles of welding, brazing, soldering and adhesive bonding." />
+
+        <TextView
+            android:id="@+id/tvMM3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Machining and Machine Tool Operations: Mechanics of machining; basic machine tools; single and multi-point cutting tools, tool geometry and materials, tool life and wear; economics of machining; principles of non-traditional machining processes; principles of work holding, design of jigs and fixtures." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+</LinearLayout>

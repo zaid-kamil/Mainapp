@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.baj.ana.mainapp.EcesyllabusActivity"
+    tools:showIn="@layout/activity_ecesyllabus"
+    android:background="@android:color/white">
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aGeneralAptitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="GENERAL APTITUDE"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvGA1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verbal Ability: English grammar, sentence completion, verbal analogies, word groups, instructions, critical reasoning and verbal deduction." />
+
+        <TextView
+            android:id="@+id/tvGA2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGA1"
+            android:text="Numerical Ability: Numerical computation, numerical estimation, numerical" />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aEngineeringMathematics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ENGINEERING MATHEMATICS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvEM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM1"
+            android:text="Linear Algebra: Matrix algebra; Systems of linear equations; Eigen values and Eigen vectors." />
+
+        <TextView
+            android:id="@+id/tvEM2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM1"
+            android:text="Calculus: Functions of single variable; Limit, continuity and differentiability; Mean value theorems, local maxima and minima, Taylor and Maclaurin series; Evaluation of definite and indefinite integrals, application of definite integral to obtain area and volume; Partial derivatives; Total derivative; Gradient, Divergence and Curl, Vector identities, Directional derivatives, Line, Surface and Volume integrals, Stokes, Gauss and Green’s theorems." />
+
+        <TextView
+            android:id="@+id/tvEM3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM2"
+            android:text="Differential equations: First order equations (linear and nonlinear), Higher order linear differential equations with constant coefficients, Method of variation of parameters, Cauchy’s equation, Euler’s equation, Initial and boundary value problems, Partial Differential Equations, Method of separation of variables." />
+
+
+        <TextView
+            android:id="@+id/tvEM4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM3"
+            android:text="Complex variables: Analytic functions, Cauchy’s integral theorem, Cauchy’s integral formula, Taylor series, Laurent series, Residue theorem, Solution integrals." />
+
+        <TextView
+            android:id="@+id/tvEM5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM4"
+            android:text="Probability and Statistics: Definitions of probability and sampling theorems; Conditional probability; Discrete Random variables: Poisson and Binomial distributions; Continuous random variables: normal and exponential distributions; Descriptive statistics – Mean, median, mode and standard deviation; Hypothesis testing." />
+
+
+        <TextView
+            android:id="@+id/tvEM6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numerical Methods: Accuracy and precision; error analysis. Numerical solutions of linear and non-linear algebraic equations; Least square approximation, Newton’s and Lagrange polynomials, numerical differentiation, Integration by trapezoidal and Simpson’s rule, single and multi-step methods for first order differential equations." />
+
+        <TextView
+            android:id="@+id/tvEM7"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM6"
+            android:text="Transform Theory: Fourier Transform, Laplace Transform, z‐Transform." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aStructuralEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="NETWORKS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvNW1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Network graphs: matrices associated with graphs; incidence, fundamental cut set and fundamental circuit matrices. Solution methods: nodal and mesh analysis. Network theorems: superposition, Thevenin and Norton’s maximum power transfer, Wye-Delta transformation. Steady state sinusoidal analysis using phasors. Linear constant coefficient differential equations; time domain analysis of simple RLC circuits, Solution of network equations using Laplace transform: frequency domain analysis of RLC circuits. 2-port network parameters: driving pointand transfer functions. State equations for networks." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aElectronicDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ELECTRONIC DEVICES"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvED1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Energy bands in silicon, intrinsic and extrinsic silicon. Carrier transport in silicon: diffusion current, drift current, mobility, and resistivity. Generation and recombination of carriers. p-n junction diode, Zener diode, tunnel diode, BJT, JFET, MOS capacitor, MOSFET, LED, p-I-n and avalanche photo diode, Basics of LASERs. Device technology: integrated circuits fabrication process, oxidation, diffusion, ion implantation, photolithography, n-tub, p-tub and twin-tub CMOS process." />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aAnalogCircuits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ANALOG CIRCUITS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvAC1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Small Signal Equivalent circuits of diodes, BJTs, MOSFETs and analog CMOS. Simple diode circuits, clipping, clamping, rectifier, Biasing and bias stability of transistor and FET amplifiers. Amplifiers: single-and multi-stage, differential and operational, feedback, and power. Frequency response of amplifiers. Simple op-amp circuits. Filters. Sinusoidal oscillators; criterion for oscillation; single-transistor and op-amp configurations. Function generators and wave-shaping circuits, 555 Timers. Power supplies." />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aDigitalCircuits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="DIGITAL CIRCUITS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvDC1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boolean algebra, minimization of Boolean functions; logic gates; digital IC families (DTL, TTL, ECL, MOS, CMOS). Combinatorial circuits: arithmetic circuits, code converters, multiplexers, decoders, PROMs and PLAs. Sequential circuits: latches and flip-flops, counters and shift-registers. Sample and hold circuits, ADCs, DACs. Semiconductor memories. Microprocessor (8085): architecture, programming, memory and I/O interfacing." />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/asignalandsystems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="SIGNALS AND SYSTEMS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvSS1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Definitions and properties of Laplace transform, continuous-time and discrete-time Fourier series, continuous-time and discrete-time Fourier Transform, DFT and FFT, z-transform. Sampling theorem. Linear Time-Invariant (LTI) Systems: definitions and properties; causality, stability, impulse response, convolution, poles and zeros, parallel and cascade structure, frequency response, group delay, phase delay. Signal transmission through LTI systems." />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aControlSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="CONTROL SYSTEMS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvCS1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic control system components; block diagrammatic description, reduction of block diagrams. Open loop and closed loop (feedback) systems and stability analysis of these systems. Signal flow graphs and their use in determining transfer functions of systems; transient and steady state analysis of LTI control systems and frequency response. Tools and techniques for LTI control system analysis: root loci, Routh-Hurwitz criterion, Bode and Nyquist plots. Control system compensators: elements of lead and lag compensation, elements of Proportional-Integral-Derivative (PID) control. State variable representation and solution of state equation of LTI control systems." />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aCommunications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="COMMUNICATIONS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvCOMM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Random signals and noise: probability, random variables, probability density function, autocorrelation, power spectral density. Analog communication systems: amplitude and angle modulation and demodulation systems, spectral analysis of these operations, superheterodyne receivers; elements of hardware, realizations of analog communication systems; signal-to-noise ratio (SNR) calculations for amplitude modulation (AM) and frequency modulation (FM) for low noise conditions. Fundamentals of information theory and channel capacity theorem. Digital communication systems: pulse code modulation (PCM), differential pulse code modulation (DPCM), digital modulation schemes: amplitude, phase and frequency shift keying schemes (ASK, PSK, FSK), matched filter receivers, bandwidth consideration and probability of error calculations for these schemes. Basics of TDMA, FDMA and CDMA and GSM."/>
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aElectromagnetics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ELECTROMAGNETICS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvE1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elements of vector calculus: divergence and curl; Gauss’ and Stokes’ theorems, Maxwell’s equations: differential and integral forms. Wave equation, Poynting vector. Plane waves: propagation through various media; reflection and refraction; phase and group velocity; skin depth. Transmission lines: characteristic impedance; impedance transformation; Smith chart; impedance matching; S parameters, pulse excitation. Waveguides: modes in rectangular waveguides; boundary conditions; cut-off frequencies; dispersion relations. Basics of propagation in dielectric waveguide and optical fibers. Basics of Antennas: Dipole antennas; radiation pattern; antenna gain." />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+</LinearLayout>

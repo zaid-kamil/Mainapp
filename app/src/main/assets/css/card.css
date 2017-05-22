@@ -1,0 +1,22 @@
+p  {
+    box-radius:10px;
+    border-radius:5px;
+    box-shadow:0 0 2px #333;
+    font-size: 16px;
+    margin:2px;
+    background:#fff;
+    color:#455;
+    text-align:justify;
+    padding:10px;
+}
+td{
+    border:1px solid #333;
+}
+ body{
+    width:100%;
+    padding:12px 5px ;
+}
+table{
+    width:100%;
+    font-size:smaller;
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.baj.ana.mainapp.EceActivity"
+    tools:showIn="@layout/activity_ece">
+
+    <LinearLayout
+        android:id="@+id/llsyllabus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:elevation="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="80"
+            android:gravity="center"
+            android:text="SYLLABUS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_alignParentStart="true"/>
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="20"
+            android:src="@drawable/s" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llquestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llsyllabus"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="7dp"
+        android:elevation="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="80"
+            android:gravity="center"
+            android:text="QUESTION PAPERS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_alignParentStart="true"/>
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="20"
+            android:src="@drawable/qp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llmockup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llquestion"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="7dp"
+        android:elevation="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="80"
+            android:gravity="center"
+            android:text="MOCK UP"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_alignParentStart="true"/>
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="20"
+            android:src="@drawable/mu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/llsyllabus"
+        android:layout_alignParentStart="true"
+        android:background="#777"></LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/llquestion"
+        android:layout_alignParentStart="true"
+        android:background="#777"></TableLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/llmockup"
+        android:layout_alignParentStart="true"
+        android:background="#777"></LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/llmockup"
+        android:layout_alignStart="@+id/llmockup"
+        android:background="#777"></LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.baj.ana.mainapp.CssyllabusActivity"
+    tools:showIn="@layout/activity_cssyllabus"
+    android:background="@android:color/white">
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aGeneralAptitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="GENERAL APTITUDE"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvGA1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verbal Ability: English grammar, sentence completion, verbal analogies, word groups, instructions, critical reasoning and verbal deduction" />
+
+        <TextView
+            android:id="@+id/tvGA2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGA1"
+            android:text="Numerical Ability: Numerical computation, numerical estimation, numerical" />
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aEngineeringMathmatics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ENGINEERING MATHEMATICS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvEM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discrete Mathematics: Propositional and first order logic. Sets, relations, functions, partial orders and lattices. Groups. Graphs: connectivity, matching, coloring. Combinatorics: counting, recurrence relations,generating functions." />
+
+        <TextView
+            android:id="@+id/tvEM2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM1"
+            android:text="Linear Algebra: Matrices, determinants, system of linear equations, eigenvalues and eigenvectors, LU decomposition." />
+
+        <TextView
+            android:id="@+id/tvEM3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM2"
+            android:text="Calculus: Limits, continuity and differentiability. Maxima and minima. Mean value theorem. Integration." />
+
+        <TextView
+            android:id="@+id/tvEM4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM3"
+            android:text="Probability: Random variables. Uniform, normal, exponential, poisson and binomial distributions. Mean, median, mode and standard deviation. Conditional probability and Bayes theorem." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aDigitalLogic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="DIGITAL LOGIC"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvDL1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boolean algebra. Combinational and sequential circuits. Minimization. Number representations and computer arithmetic (fixed and floating point)." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aComputerOrganizationAndArchitecture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="COMPUTER ORGANIZATION AND ARCHITECTURE"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvCOA1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Machine instructions and addressing modes. ALU, data‐path and control unit. Instruction pipelining. Memory hierarchy: cache, main memory and secondary storage; I/O interface (interrupt and DMA mode)." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aProgrammingAndDataStructures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="PROGRAMMING AND DATA STRUCTURES"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvPDS1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Programming in C. Recursion. Arrays, stacks, queues, linked lists, trees, binary search trees, binary heaps, graphs." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aAlgorithms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ALGORITHMS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvAL1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Searching, sorting, hashing. Asymptotic worst case time and space complexity. Algorithm design techniques: greedy, dynamic programming and divide‐and‐conquer. Graph search, minimum spanning trees, shortest paths." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aTheoryOfComputation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="THEORY OF COMPUTATION"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvTOC1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regular expressions and finite automata. Context-free grammars and push-down automata. Regular and contex-free languages, pumping lemma. Turing machines and undecidability." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aCompilerDesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading=" COMPILER DESIGN"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvCD1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lexical analysis, parsing, syntax-directed translation. Runtime environments. Intermediate code generation." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aOperatingSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="OPERATING SYSTEM"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvOS1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Processes, threads, inter‐process communication, concurrency and synchronization. Deadlock. CPU scheduling. Memory management and virtual memory. File systems." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aDatabases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="DATABASES"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvDB1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ER‐model. Relational model: relational algebra, tuple calculus, SQL. Integrity constraints, normal forms. File organization, indexing (e.g., B and B+ trees). Transactions and concurrency control." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aComputerNetworks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="COMPUTER NETWORKS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvCN1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Concept of layering. LAN technologies (Ethernet). Flow and error control techniques, switching. IPv4/IPv6, routers and routing algorithms (distance vector, link state). TCP/UDP and sockets, congestion control. Application layer protocols (DNS, SMTP, POP, FTP, HTTP). Basics of Wi-Fi. Network security: authentication, basics of public key and private key cryptography, digital signatures and certificates, firewalls." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+
+</LinearLayout>

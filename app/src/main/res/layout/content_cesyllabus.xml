@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.baj.ana.mainapp.CesyllabusActivity"
+    tools:showIn="@layout/activity_cesyllabus"
+    android:background="@android:color/white">
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aGeneralAptitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="GENERAL APTITUDE"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvGA1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verbal Ability: English grammar, sentence completion, verbal analogies, word groups, instructions, critical reasoning and verbal deduction." />
+
+        <TextView
+            android:id="@+id/tvGA2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGA1"
+            android:text="Numerical Ability: Numerical computation, numerical estimation, numerical" />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aEngineeringMathematics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ENGINEERING MATHEMATICS"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+
+        <TextView
+            android:id="@+id/tvEM1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Linear Algebra: Matrix algebra; Systems of linear equations; Eigen values and Eigen vectors." />
+
+        <TextView
+            android:id="@+id/tvEM2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM1"
+            android:text="Calculus: Functions of single variable; Limit, continuity and differentiability; Mean value theorems, local maxima and minima, Taylor and Maclaurin series; Evaluation of definite and indefinite integrals, application of definite integral to obtain area and volume; Partial derivatives; Total derivative; Gradient, Divergence and Curl, Vector identities, Directional derivatives, Line, Surface and Volume integrals, Stokes, Gauss and Green’s theorems." />
+
+        <TextView
+            android:id="@+id/tvEM3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM2"
+            android:text="Ordinary Differential Equation (ODE): First order (linear and non-linear) equations; higher order linear equations with constant coefficients; Euler-Cauchy equations; Laplace transform and its application in solving linear ODEs; initial and boundary value problems." />
+
+
+        <TextView
+            android:id="@+id/tvEM4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM3"
+            android:text="Partial Differential Equation (PDE): Fourier series; separation of variables; solutions of onedimensional diffusion equation; first and second order one-dimensional wave equation and two-dimensional Laplace equation." />
+
+        <TextView
+            android:id="@+id/tvEM5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM4"
+            android:text="Probability and Statistics: Definitions of probability and sampling theorems; Conditional probability; Discrete Random variables: Poisson and Binomial distributions; Continuous random variables: normal and exponential distributions; Descriptive statistics – Mean, median, mode and standard deviation; Hypothesis testing." />
+
+
+        <TextView
+            android:id="@+id/tvEM6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEM5"
+            android:text="Numerical Methods: Accuracy and precision; error analysis. Numerical solutions of linear and non-linear algebraic equations; Least square approximation, Newton’s and Lagrange polynomials, numerical differentiation, Integration by trapezoidal and Simpson’s rule, single and multi-step methods for first order differential equations." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aStructuralEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading=" STRUCTURAL ENGINEERING"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvSE1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Engineering Mechanics: System of forces, free-body diagrams, equilibrium equations; Internal forces in structures; Friction and its applications; Kinematics of point mass and rigid body; Centre of mass; Euler’s equations of motion; Impulse-momentum; Energy methods; Principles of virtual work." />
+
+        <TextView
+            android:id="@+id/tvSE2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSE1"
+            android:text="Solid Mechanics: Bending moment and shear force in statically determinate beams; Simple stress and strain relationships; Theories of failures; Simple bending theory, flexural and shear stresses, shear centre; Uniform torsion, buckling of column, combined and direct bending stresses." />
+
+        <TextView
+            android:id="@+id/tvSE3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSE2"
+            android:text="Structural Analysis: Statically determinate and indeterminate structures by force/ energy methods; Method of superposition; Analysis of trusses, arches, beams, cables and frames; Displacement methods: Slope deflection and moment distribution methods; Influence lines; Stiffness and flexibility methods of structural analysis." />
+
+        <TextView
+            android:id="@+id/tvSE4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSE3"
+            android:text="Construction Materials and Management: Construction Materials: Structural steel – composition, material properties and behaviour; Concrete – constituents, mix design, short-term and long-term properties; Bricks and mortar; Timber; Bitumen. Construction Management: Types of construction projects; Tendering and construction contracts; Rate analysis and standard specifications; Cost estimation; Project planning and network analysis – PERT and CPM.  " />
+
+        <TextView
+            android:id="@+id/tvSE5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSE4"
+            android:text="Concrete Structures: Working stress, Limit state and Ultimate load design concepts; Design of beams, slabs, columns; Bond and development length; Prestressed concrete; Analysis of beam sections at transfer and service loads" />
+
+        <TextView
+            android:id="@+id/tvSE6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSE5"
+            android:text="Steel Structures: Working stress and Limit state design concepts; Design of tension and compression members, beams and beam- columns, column bases; Connections – simple and eccentric, beam-column connections, plate girders and trusses; Plastic analysis of beams and frames" />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aGeotechnicalEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="GEOTECHNICAL ENGINEERING"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvGE1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soil Mechanics: Origin of soils, soil structure and fabric; Three-phase system and phase relationships, index properties; Unified and Indian standard soil classification system; Permeability – one dimensional flow, Darcy’s law; Seepage through soils – two-dimensional flow, flow nets, uplift pressure, piping; Principle of effective stress, capillarity, seepage force and quicksand condition; Compaction in laboratory andfield conditions; Onedimensional consolidation, time rate of consolidation; Mohr’s circle, stress paths, effective and total shear strength parameters, characteristics of clays and sand." />
+
+        <TextView
+            android:id="@+id/tvGE2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvGE1"
+            android:text="Foundation Engineering: Sub-surface investigations – scope, drilling bore holes, sampling, plate load test, standard penetration and cone penetration tests; Earth pressure theories – Rankine and Coulomb; Stability of slopes – finite and infinite slopes, method of slices and Bishop’s method; Stress distribution in soils – Boussinesq’s and Westergaard’s theories, pressure bulbs; Shallow foundations – Terzaghi’s and Meyerhoff’s bearing capacity theories, effect of water table; Combined footing and raft foundation; Contact pressure; Settlement analysis in sands and clays; Deep foundations – types of piles, dynamic and static formulae, load capacity of piles in sands and clays, pile load test, negative skin friction." />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aWterSourcesEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="WATERSOURCESENGINEERING"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvWE1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fluid Mechanics: Properties of fluids, fluid statics; Continuity, momentum, energy and corresponding equations; Potential flow, applications of momentum and energy equations; Laminar and turbulent flow; Flow in pipes, pipe networks; Concept of boundary layer and its growth." />
+
+        <TextView
+            android:id="@+id/tvWE2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvWE1"
+            android:text="Hydraulics: Forces on immersed bodies; Flow measurement in channels and pipes; Dimensional analysis and hydraulic similitude; Kinematics of flow, velocity triangles; Basics of hydraulic machines, specific speed of pumps and turbines; Channel Hydraulics – Energy-depth relationships, specific energy, critical flow, slope profile, hydraulic jump, uniform flow and gradually varied flow" />
+
+        <TextView
+            android:id="@+id/tvWE3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvWE2"
+            android:text="Hydrology: Hydrologic cycle, precipitation, evaporation, evapo-transpiration, watershed, infiltration, unit hydrographs, hydrograph analysis, flood estimation and routing, reservoir capacity, reservoir and channel routing, surface run-off models, ground water hydrology – steady state well hydraulics and aquifers; Application of Darcy’s law." />
+
+        <TextView
+            android:id="@+id/tvWE4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvWE3"
+            android:text="Irrigation: Duty, delta, estimation of evapo-transpiration; Crop water requirements; Design of lined and unlined canals, head works, gravity dams and spillways; Design of weirs on permeable foundation; Types of irrigation systems, irrigation methods; Water logging and drainage; Canal regulatory works, cross-drainage structures, outlets and escapes." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aEnvironmentalEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="ENVIRONMENTAL ENGINEERING"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvEE1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water and Waste Water: Quality standards, basic unit processes and operations for water treatment. Drinking water standards, water requirements, basic unit operations and unit processes for surface water treatment, distribution of water. Sewage and sewerage treatment, quantity and characteristics of wastewater. Primary, secondary and tertiary treatment of wastewater, effluent discharge standards. Domestic wastewater treatment, quantity of characteristics of domestic wastewater, primary and secondary treatment. Unit operations and unit processes of domestic wastewater, sludge disposal." />
+
+        <TextView
+            android:id="@+id/tvEE2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEE1"
+            android:text="Air Pollution: Types of pollutants, their sources and impacts, air pollution meteorology, air pollution control, air quality standards and limits." />
+
+        <TextView
+            android:id="@+id/tvEE3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEE2"
+            android:text="Municipal Solid Wastes: Characteristics, generation, collection and transportation of solid wastes, engineered systems for solid waste management (reuse/ recycle, energy recovery, treatment and disposal)." />
+
+        <TextView
+            android:id="@+id/tvEE4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEE3"
+            android:text="Noise Pollution: Impacts of noise, permissible limits of noise pollution, measurement of noise and control of noise pollution." />
+
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+
+    <com.riyagayasen.easyaccordion.AccordionView
+        android:id="@+id/aTransportationEngineering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        app:heading="TRANSPORTATION ENGINEERING"
+        app:isAnimated="false"
+        app:isExpanded="false"
+        app:isPartitioned="true">
+
+        <TextView
+            android:id="@+id/tvTE1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transportation Infrastructure: Highway alignment and engineering surveys; Geometric design of highways – cross-sectional elements, sight distances, horizontal and vertical alignments; Geometric design of railway track; Airport runway length, taxiway and exit taxiway design." />
+
+        <TextView
+            android:id="@+id/tvTE2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTE1"
+            android:text="Highway Pavements: Highway materials – desirable properties and quality control tests; Design of bituminous paving mixes; Design factors for flexible and rigid pavements; Design of flexible pavement using IRC: 37-2012; Design of rigid pavements using IRC: 58-2011; Distresses in concrete pavements." />
+
+        <TextView
+            android:id="@+id/tvTE3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTE2"
+            android:text="Traffic Engineering: Traffic studies on flow, speed, travel time – delay and O-D study, PCU, peak hour factor, parking study, accident study and analysis, statistical analysis of traffic data; Microscopic and macroscopic parameters of traffic flow, fundamental relationships; Control devices, signal design by Webster’s method; Types of intersections and channelization; Highway capacity and level of service of rural highways and urban roads." />
+
+    </com.riyagayasen.easyaccordion.AccordionView>
+
+</LinearLayout>
